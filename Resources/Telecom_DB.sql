@@ -1,24 +1,23 @@
-CREATE TABLE Telecom (
-	CustomerID VARCHAR,
-	Gender VARCHAR,
-	SeniorCitizen CHAR,
+CREATE TABLE public.telecom (
+	customerID VARCHAR,
+	gender VARCHAR,
+	SeniorCitizen BIT,
 	Partner VARCHAR,
 	Dependents VARCHAR,
-	Tenure INT,
+	tenure INT,
 	PhoneService VARCHAR,
 	MultipleLines VARCHAR,
 	InternetService VARCHAR,
 	OnlineSecurity VARCHAR,
 	OnlineBackup VARCHAR,
 	DeviceProtection VARCHAR,
-	TechSupport VARCHAR, 
+	TechSupport VARCHAR,
 	StreamingTV VARCHAR,
 	StreamingMovies VARCHAR,
 	Contract VARCHAR,
 	PaperlessBilling VARCHAR,
 	PaymentMethod VARCHAR,
-	MonthlyCharges INT,
-	TotalCharges INT,
+	MonthlyCharges DECIMAL,
+	TotalCharges DECIMAL,
 	Churn VARCHAR
 );
-
