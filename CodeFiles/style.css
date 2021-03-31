@@ -2,3 +2,27 @@ body {
     
     background-color: grey;
 }
+
+#Dashboard {
+    position:relative;
+    left: 80px;
+
+}
+
+#dashboardcard {
+    position:absolute;
+    top: 400px;
+    right: 80px;
+}
+
+#PieCharts {
+    position:relative;
+    left: 450px;
+    bottom: 100px;
+}
+
+#piecard {
+    position:absolute;
+    left: 80px;
+    top: 1400px;
+}
