@@ -3,10 +3,32 @@ body {
     background-color: grey;
 }
 
+.navbar-brand {
+    
+    font-family:fantasy;
+}
+
+.nav-link {
+    font-family:fantasy;
+}
+
+h1 {
+    color:rgba(236, 214, 12, 0.993); 
+    font-family: fantasy;
+    font-size: 60px;
+    position: absolute;
+    left: 30%;
+}
+
+#jumbotron {
+    position: absolute;
+    left: 600px;
+}
+
 #Dashboard {
     position:relative;
     left: 80px;
-
+    top: 100px;
 }
 
 #dashboardcard {
