@@ -48,3 +48,23 @@ h1 {
     left: 80px;
     top: 1400px;
 }
+
+#card1 {
+    position: absolute;
+    left: 340px;
+    top: 200px;
+}
+
+#card2 {
+    position:absolute;
+    left: 350px;
+    top: 800px;
+}
+
+#card3 {
+    position:relative;
+    left: 350px;
+    top: 1500px;
+    
+    
+}
