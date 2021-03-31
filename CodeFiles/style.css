@@ -17,12 +17,11 @@ h1 {
     font-family: fantasy;
     font-size: 60px;
     position: absolute;
-    left: 30%;
+    left: 40%;
 }
-
-#jumbotron {
-    position: absolute;
-    left: 600px;
+.text-warning {
+    position:absolute;
+    left: 30%
 }
 
 #Dashboard {
@@ -49,6 +48,17 @@ h1 {
     top: 1400px;
 }
 
+#stackchart {
+    position:absolute;
+    left: 150px;
+}
+
+#stackcard {
+    position:absolute;
+    right: 500px;
+    top: 2500px;
+}
+
 #card1 {
     position: absolute;
     left: 340px;
@@ -67,4 +77,15 @@ h1 {
     top: 1500px;
     
     
+}
+
+#fiberoptic {
+    position:relative;
+    top: 100px;
+}
+
+#introcard {
+    position: absolute;
+    top: 300px;
+    left: 1200px;
 }

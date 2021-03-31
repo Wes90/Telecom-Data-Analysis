@@ -13,34 +13,41 @@
 <body onload="initViz();">
   <nav class="navbar navbar-expand-lg navbar-light bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand text-info" href="dashboard.html"> Dashboard</a>
+      <a class="navbar-brand text-info" href="home.html"> Home</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active text-info" aria-current="page" href="code.html">Code Files</a>
+            <a class="nav-link active text-info" aria-current="page" href="dashboard.html">Dashboard</a>
+            <li class="nav-item">
+              <a class="nav-link active text-info" aria-current="page" href="code.html">Code Files</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
   <br>
-  <h1 class ='text-warning'> Telecom Data Analysis</h1> 
+  <h1 class ='text-warning'> Dashboard</h1> 
   <div id="Dashboard"></div>
   <div class="card border-info" id="dashboardcard" style="width: 18rem;">
     <div class="card-body text-white bg-dark">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <p class="card-text"> In this dashboard, I've created visuals mainly focusing on factors that may be closely related to the client churn.<br> Using a machine learning model to predict churn based on actual data. This information may be important to gain forsight on our clients behavior based on the type of subscribtion. </p>
     </div>
   </div> 
   <br>
   <div id="PieCharts"></div> 
   <div class="card border-info" id='piecard' style="width: 18rem;">
     <div class="card-body text-white bg-dark">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <p class="card-text">This multiple pie chart focuses on what I believe are key factors in churn outcome. Internet service, phone service, and gender (most likely not as importand but creates a diverse visual).<br>Looking at this chart, we can almost rule out gender being a significant factor, though looking at phone service paired with fiber optic service, the churn percentage is much greater while also having the majority of clients. Could this churn rate be caused by price or customer service?</p>
+    </div>
+  </div>
+  <br>
+  <div id="stackchart"></div> 
+  <div class="card border-info" id='stackcard' style="width: 18rem;">
+    <div class="card-body text-white bg-dark">
+      <p class="card-text">After reviewing the multiple pie charts, led me to customer service or technical support with users.<br>This stacked bar char shows the internet service with and without tech support and reveals the percent of total churn for each service. This clearly shows the positive impact tech support has with keeping clients subscribed and providing more support will greatly help keep them long term. </p>
     </div>
   </div>
 
