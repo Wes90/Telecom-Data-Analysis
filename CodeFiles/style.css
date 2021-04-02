@@ -17,7 +17,7 @@ h1 {
     font-family: fantasy;
     font-size: 60px;
     position: absolute;
-    left: 40%;
+    right: 400px;
 }
 .text-warning {
     position:absolute;
